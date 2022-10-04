@@ -23,7 +23,7 @@ char *str_concat(char *s1, char *s2)
 	if (!s2)
 		s2 = "";
 	else
-		while (*(s2 + size1++))
+		while (*(s2 + size2++))
 			;
 
 	size = size1 + size2 - 1;
